@@ -1,0 +1,57 @@
+body {
+    background-color: darkslategray;
+    color: white;
+    font-size: 24px;
+}
+
+#global {
+    height: 100vh;
+    display: grid;
+    padding: 10px;
+    outline: red 1px solid;
+    grid-template-rows: 30vh auto;
+}
+
+img {
+    grid-row: 2/3;
+}
+
+button {
+    display: block;
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+#formdiv {
+    min-width: 400px;
+    width: 40vw;
+    height: 25vh;
+    outline: white 5px solid;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 12.5vw auto;
+    grid-row: 2/3;
+    display: inline-block;
+}
+
+#search {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    display: block;
+    text-align: center;
+    height: 30px;
+    width: 25vw;
+    min-width: 300px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.lower-grid {
+    grid-row: 2 / 3;
+    padding: 5px;
+}

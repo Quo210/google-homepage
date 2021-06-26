@@ -1,0 +1,148 @@
+* {
+
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    overflow-y: hidden;
+
+}
+
+#global {
+    height: 100vh;
+    display: grid;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 30% 20% 50%;
+    justify-content: center;
+}
+
+#formdiv {
+
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+/*.lower {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}*/
+
+#imgdiv {
+    margin: auto;
+    width: 50%;
+    height: 90%;
+    display: flex;
+    width: 90vw;
+    height: 100%;
+    justify-content: center;
+}
+
+img {
+    display: block;
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    grid-template-rows: 75px 75px;
+}
+
+#search {
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+    margin: auto;
+    width: 50vw;
+    min-width: 400px;
+    border: 2px gray solid;
+    background-color: black;
+}
+
+#lowerf {
+    display: flex;
+    justify-content: center;
+}
+
+#upperf {
+    display: flex;
+    align-content: center;
+}
+
+button {
+    padding: 5px 15px;
+    height: 30px;
+    font-size: 16px;
+    align-self: center;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(14, 13, 13);
+}
+
+#lang-div {
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+a {
+    padding: 5px;
+    margin: 0px 5px;
+    text-decoration: unset;
+    color:whitesmoke;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.link {
+    color:rgb(0, 110, 255)
+}
+
+.foot {
+    position: fixed;
+    bottom: 0px;
+    width: 99vw;
+    height: 7.5vw;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    background-color: rgb(14, 13, 13);
+}
+
+.footbar2 {
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: space-between;
+    border-top: gray solid 0.5px;
+    align-items: center;
+}
+
+.footbar1 {
+    padding: 12px 15px;
+    font-size: 18px;
+}
